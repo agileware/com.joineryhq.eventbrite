@@ -108,7 +108,7 @@ class CRM_Eventbrite_Form_Manage_Field extends CRM_Admin_Form {
         $this->add(
           'select', // field type
           'eb_entity_id', // field name
-          E::ts('Evenbrite Question'), // field label
+          E::ts('Eventbrite Question'), // field label
           $ebFieldOptions, // list of options
           TRUE // is required
         );

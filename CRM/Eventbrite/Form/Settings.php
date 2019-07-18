@@ -332,7 +332,7 @@ class CRM_Eventbrite_Form_Settings extends CRM_Core_Form {
             }
 
             if ($createdWebhooks == 2) {
-              $msgString = 'Eventbrite webhooks have been successfully configured in your Evenbrite account.';
+              $msgString = 'Eventbrite webhooks have been successfully configured in your Eventbrite account.';
               $msg = E::ts($msgString);
               CRM_Core_Session::setStatus($msg, E::ts('Eventbrite webhook setup'), 'success');
 
@@ -348,7 +348,7 @@ class CRM_Eventbrite_Form_Settings extends CRM_Core_Form {
             CRM_Core_Session::setStatus($msg, E::ts('Eventbrite webhook setup'), 'error');
           }
           else {
-            $msgString = 'Eventbrite webhooks appear to be correctly configured in your Evenbrite account.';
+            $msgString = 'Eventbrite webhooks appear to be correctly configured in your Eventbrite account.';
             $msg = E::ts($msgString);
             CRM_Core_Session::setStatus($msg, E::ts('Eventbrite webhook setup check'), 'success');
           }

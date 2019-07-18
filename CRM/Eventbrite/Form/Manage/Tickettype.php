@@ -70,7 +70,7 @@ class CRM_Eventbrite_Form_Manage_Tickettype extends CRM_Admin_Form {
         $this->add(
           'select', // field type
           'eb_entity_id', // field name
-          E::ts('Evenbrite Ticket Type'), // field label
+          E::ts('Eventbrite Ticket Type'), // field label
           $ebTicketTypeOptions, // list of options
           TRUE // is required
         );
